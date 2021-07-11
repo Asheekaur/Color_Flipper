@@ -9,5 +9,8 @@ btn.addEventListener("click",function(){
     // generate a random hex number of hex_length
     for(let i = 0 ;i < hex_length ; i++)
     randomColor += hex[Math.floor(Math.random() * hex.length)];
-    
+    // set the color in background to the random color picked earlier 
+    document.body.style.backgroundColor = randomColor;
+    // change the name of the color in the page accordingly
+    color.textContent = randomColor ;
 });
