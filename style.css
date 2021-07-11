@@ -47,3 +47,15 @@ h2{
     font-weight: 900;
     text-transform: capitalize;
 }
+
+button{
+    background: rgb(97, 95, 95);
+    color: whitesmoke;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: .6rem;
+    padding: .8rem;
+    cursor: pointer;
+    width: 8rem;
+    margin-left: 44rem;
+}
